@@ -20,7 +20,7 @@ RUN apt-get update \
 		ed \
 		less \
 		locales \
-		vim-tiny \
+		vim \
 		wget \
 		ca-certificates \
 		fonts-texgyre \
@@ -66,5 +66,7 @@ RUN apt-get update \
 	&& ln -s /usr/lib/R/site-library/littler/examples/testInstalled.r /usr/local/bin/testInstalled.r \
 	&& rm -rf /tmp/downloaded_packages/ /tmp/*.rds \
 	&& rm -rf /var/lib/apt/lists/*
+
+WORKDIR work
 
 CMD ["R"]
