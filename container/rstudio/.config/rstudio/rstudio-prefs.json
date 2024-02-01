@@ -1,0 +1,37 @@
+{
+    "initial_working_directory": "~",
+    "editor_theme": "Kr Theme",
+    "posix_terminal_shell": "bash",
+    "default_encoding": "UTF-8",
+    "indent_guides": "rainbowlines",
+    "panes": {
+        "quadrants": [
+            "Source",
+            "TabSet2",
+            "TabSet1",
+            "Console"
+        ],
+        "tabSet1": [
+            "Environment",
+            "History",
+            "Files",
+            "Plots",
+            "Connections",
+            "Packages",
+            "Help",
+            "Build",
+            "VCS",
+            "Tutorial",
+            "Viewer",
+            "Presentation"
+        ],
+        "tabSet2": [
+            "Presentations"
+        ],
+        "hiddenTabSet": [],
+        "console_left_on_top": false,
+        "console_right_on_top": false,
+        "additional_source_columns": 0
+    },
+    "real_time_spellchecking": false
+}
