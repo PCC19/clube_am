@@ -1,5 +1,5 @@
-FROM rocker/tidyverse:4.3.1
-
+## FROM rocker/tidyverse:4.3.1
+FROM --platform=linux/amd64 rocker/tidyverse:4.3.1
 RUN apt-get update \
   && apt-get install -y --no-install-recommends \
     vim \

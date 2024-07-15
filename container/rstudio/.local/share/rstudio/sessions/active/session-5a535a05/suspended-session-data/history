@@ -1,0 +1,32 @@
+2 + 2
+3 + 3
+2+3
+2 + 3
+3 + 3
+2 + 3
+sys.sleep(10)
+Sys.sleep(10)
+print("Ola Mundo")
+Sys.date()
+Sys.Date()
+a <- 1
+a
+a + 2
+b <- 3
+a + b
+a <- 2
+a <- a + 1
+c <- b + 1
+a <- 4
+a
+class(a)
+c <- "Paulo"
+class(c)
+y <- TRUE
+class(y)
+z <- NULL
+class(z)
+y <- TRUE
+class(y)
+y <- TRUE
+class(y)
